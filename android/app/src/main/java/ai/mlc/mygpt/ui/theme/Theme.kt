@@ -17,8 +17,8 @@ import androidx.compose.ui.platform.LocalView
 import androidx.core.view.WindowCompat
 
 private val DarkColorScheme = darkColorScheme(
-    primary = Blue80,
-    onPrimary = Blue20,
+    primary = MyCustomGreen,
+    onPrimary = LighterGreen,
     primaryContainer = Blue30,
     onPrimaryContainer = Blue90,
     inversePrimary = Blue40,
@@ -46,7 +46,7 @@ private val DarkColorScheme = darkColorScheme(
 )
 
 private val LightColorScheme = lightColorScheme(
-    primary = Blue40,
+    primary = LighterGreen,
     onPrimary = Color.White,
     primaryContainer = Blue90,
     onPrimaryContainer = Blue10,
@@ -94,7 +94,7 @@ fun MLCChatTheme(
     if (!view.isInEditMode) {
         SideEffect {
             val window = (view.context as Activity).window
-            window.statusBarColor = colorScheme.primary.toArgb()
+            window.statusBarColor = MyCustomGreen.toArgb()
             WindowCompat.getInsetsController(window, view).isAppearanceLightStatusBars = darkTheme
         }
     }
