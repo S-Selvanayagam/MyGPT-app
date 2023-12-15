@@ -1,0 +1,12 @@
+{
+  "model_libs": [
+    "orca_mini_3b-q4f16_1"
+  ],
+  "model_list": [
+    {
+      "model_url": "",
+      "local_id": "orca_mini_3b-q4f16_1"
+    }
+  ],
+  "add_model_samples": []
+}

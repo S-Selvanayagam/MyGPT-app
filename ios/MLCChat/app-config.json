@@ -1,0 +1,52 @@
+{
+  "model_libs": [
+    "Mistral-7B-Instruct-v0.1-q3f16_1",
+    "Llama-2-7b-chat-hf-q3f16_1",
+    "RedPajama-INCITE-Chat-3B-v1-q4f16_1",
+    "orca_mini_3b-q4f16_1"
+  ],
+  "model_list": [
+    {
+      "model_url": "https://huggingface.co/mlc-ai/mlc-chat-OpenHermes-2.5-Mistral-7B-q3f16_1/",
+      "local_id": "OpenHermes-2.5-Mistral-7B-q3f16_1"
+    },
+    {
+      "model_url": "https://huggingface.co/mlc-ai/mlc-chat-Mistral-7B-Instruct-v0.1-q3f16_1/",
+      "local_id": "Mistral-7B-Instruct-v0.1-q3f16_1"
+    },
+    {
+      "model_url": "https://huggingface.co/mlc-ai/mlc-chat-Llama-2-7b-chat-hf-q3f16_1/",
+      "local_id": "Llama-2-7b-chat-hf-q3f16_1"
+    },
+    {
+      "model_url": "https://huggingface.co/mlc-ai/mlc-chat-RedPajama-INCITE-Chat-3B-v1-q4f16_1/",
+      "local_id": "RedPajama-INCITE-Chat-3B-v1-q4f16_1"
+    },
+    {
+      "model_url": "https://huggingface.co/aadarsh-ram/orca-mini-3b-mlc_llm/",
+      "local_id": "orca_mini_3b-q4f16_1"
+    }
+  ],
+  "add_model_samples": [
+    {
+      "model_url": "https://huggingface.co/mlc-ai/mlc-chat-OpenHermes-2.5-Mistral-7B-q3f16_1/",
+      "local_id": "OpenHermes-2.5-Mistral-7B-q3f16_1"
+    },
+    {
+      "model_url": "https://huggingface.co/mlc-ai/mlc-chat-Mistral-7B-Instruct-v0.1-q3f16_1/",
+      "local_id": "Mistral-7B-Instruct-v0.1-q3f16_1"
+    },
+    {
+      "model_url": "https://huggingface.co/mlc-ai/mlc-chat-Llama-2-7b-chat-hf-q3f16_1/",
+      "local_id": "Llama-2-7b-chat-hf-q3f16_1"
+    },
+    {
+      "model_url": "https://huggingface.co/mlc-ai/mlc-chat-RedPajama-INCITE-Chat-3B-v1-q4f16_1/",
+      "local_id": "RedPajama-INCITE-Chat-3B-v1-q4f16_1"
+    },
+    {
+      "model_url": "https://huggingface.co/aadarsh-ram/orca-mini-3b-mlc_llm/",
+      "local_id": "orca_mini_3b-q4f16_1"
+    }
+  ]
+}
